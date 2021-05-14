@@ -1,0 +1,125 @@
+.centertext{
+    text-align: center;
+}
+.righttext{
+    text-align: right;
+}
+.searchdiv{
+    margin-left: 525px;
+}
+.imgposi{
+    position:absolute;
+    margin-left: 937px;
+    margin-top: -29px;
+}
+.searchbar{
+    padding: 5px 240px 5px 10px;
+}
+.reviewdiv{
+    margin-left: 70px;
+}
+.namebar{
+    padding: 5px 240px 5px 5px;
+}
+.reviewbar{
+    padding: 5px 240px 70px 5px;
+}
+.searchbar:hover{
+    box-shadow:0 10px 20px rgb(34, 33, 33 , 0.15);
+    transform: translateY(-2px);
+    border-radius: 5px;
+}
+
+.buttommargin{
+    margin-bottom: 60px;
+}
+.textdesign{
+    font-size: 20px;
+    font-family:Bookman, URW Bookman L, serif;
+    color:tomato;
+    font-weight: bold;
+    padding: 12px;
+}
+
+
+.buttontext:visited{
+    font-size: 20px;
+    color: rgb(5, 27, 23);
+    display: inline-block;
+    text-decoration: none;
+    padding:8px;
+    border-bottom: 1px solid rgb(60, 88, 4) ;
+    transition: all .2s;
+    border-radius: 5px;
+}
+.buttontext:hover{
+    background-color: yellowgreen;
+    color: white;
+    box-shadow:0 10px 20px rgb(34, 33, 33 , 0.15);
+    transform: translateY(-2px);
+    border-radius: 5px;
+    padding:8px;
+}
+.buttontext:active{
+    box-shadow: 0 5px 10px rgb(34, 33, 33 , 0.15);
+    transform: translateY(0);
+    border-radius: 5px;
+    padding:8px;
+}
+.submit{
+    text-transform: uppercase;
+    padding:10px 20px;
+    background-color: rgba(236, 35, 35, 0.884);
+    color: white;
+    font-size: medium;
+    display: inline-block;
+    border-radius: 15px;
+}
+.submit:hover{
+    background-color: rgb(143, 70, 10);
+    color: white;
+    box-shadow:0 2px 3px rgb(34, 33, 33 , 0.15);
+    transform: translateY(-1px);
+    border-radius: 15px;
+    padding:12px 22px;
+}
+.primary{
+    margin-left: 15px;
+    margin-right: 160px;
+}
+
+.primarylink:hover{
+    box-shadow:0 2px 3px rgba(157, 160, 9, 0.87);
+    transform: translateY(-1px);
+    background-color: rgb(11, 11, 20);
+    padding:30px 0px 2px 0px;
+}
+.secondary1{
+    margin-right: 160px;
+    float:left;
+}
+.secondary2{
+    margin-right: 160px;
+    float:left;
+}
+.secondary3{
+    margin-right: 173px;
+    float:left;
+}
+.secondary4{
+    margin-right: 120px;
+    float:left;
+}
+.alignfooter{
+    margin-left: 300px;
+}
+.photo{
+    color:white;
+
+}
+.photo:hover{
+    box-shadow:0 2px 3px rgba(189, 189, 183, 0.87);
+    transform: translateY(-1px);
+    background-color: rgb(11, 11, 20);
+    padding:2px 2px 2px 2px;
+}

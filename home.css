@@ -1,0 +1,28 @@
+.section{
+    background-color: #dad8d8;
+    margin-top: -134px;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-bottom: 180px;
+}
+.footer{
+    position: relative;
+    background-color: black;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 100px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+.section1{
+    background-image: url(https://media.timeout.com/images/103391491/image.jpg);
+    background-size: cover;
+    height:750px;
+    background-color: #bdc00b;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-bottom: 150px;
+    clip-path: polygon(0 0 , 100% 0 , 100% 85% , 0 100%);
+}
+

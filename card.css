@@ -1,0 +1,173 @@
+.card{
+    position: relative;
+    height: 380px;
+}
+
+.cardside{
+    background-color: white;
+    transition: all .8s;
+    height: 380px;
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    border-radius:5px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgb(44, 43, 43, 0.15);
+}
+.cardpicture{
+    background-size: cover;
+    height: 180px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+.cardheadingdefault{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(241, 46, 12);
+    position:absolute;
+    top: 180px;
+    left: 36px;
+
+}
+.cardheading1{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(241, 46, 12);
+    position:absolute;
+    top: 180px;
+    left: 75px;
+
+}
+.cardheading2{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(241, 46, 12);
+    position:absolute;
+    top: 180px;
+    left: 85px;
+
+}
+.cardheading3{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(241, 46, 12);
+    position:absolute;
+    top: 180px;
+    left: 60px;
+
+}
+.cardheading4{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(241, 46, 12);
+    position:absolute;
+    top: 180px;
+    left: 95px;
+
+}
+.carddetails{
+    padding:36px 30px 10px 30px;
+}
+.listdesign{
+        list-style: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+.list{  
+        color: rgb(34, 33, 34);
+        text-align:center;
+        font-size: 15px;
+        padding:10px;
+        border-bottom: 1px solid rgb(190, 34, 34);
+    }
+
+.list1{
+    margin-left: 140px;
+    margin-right: 6px;
+    padding: 4px;
+    color: rgba(177, 31, 12, 0.89);
+    text-align:right;
+    font-size: 15px; 
+    font-weight: bolder;
+    border: 2px solid rgb(149, 221, 32);
+    border-radius: 20px;
+}
+.linktocart{
+    position:absolute;
+    top: 350px;
+    left: 5px;
+    
+}
+.cartlink{
+    text-transform: uppercase;
+    padding:2px;
+    background-color: rgb(218, 39, 16);
+    color: white;
+    font-size: medium;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.cartlink:visited{
+    text-transform: uppercase;
+    padding:2px;
+    background-color: rgb(218, 39, 16);
+    color: white;
+    font-size: medium;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.cartlink:focus{
+    box-shadow: 0 2px 2px rgba(17, 16, 16, 0.15);
+    background-color: rgb(16, 112, 13);
+    transform: translateY(0);
+    border-radius: 3px;
+    padding:2px;
+}
+.cartlink:hover{
+    background-color: rgb(108, 233, 92);
+    color: white;
+    box-shadow:0 10px 10px rgba(19, 18, 18, 0.15);
+    transform: translateY(-1px);
+    border-radius: 3px;
+    padding:3px;
+}
+.classheading1{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(241, 46, 12);
+    position:absolute;
+    top: 180px;
+    left: 150px;
+
+}
+.classheading2{
+    font-size: 22px;
+    font-weight: 200;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgba(179, 121, 15, 0.788);
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
