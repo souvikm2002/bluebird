@@ -1,9 +1,9 @@
 .section{
     background-color: #dad8d8;
-    margin-top: -134px;
+    margin-top: -8.375rem;
     margin-left: 28px;
     margin-right: 28px;
-    padding-bottom: 180px;
+    padding-bottom: 11.25rem;
 }
 .footer{
     position: relative;
@@ -18,11 +18,11 @@
 .section1{
     background-image: url(https://media.timeout.com/images/103391491/image.jpg);
     background-size: cover;
-    height:750px;
+    height:46.875rem;
     background-color: #bdc00b;
     margin-left: 28px;
     margin-right: 28px;
-    padding-bottom: 150px;
+    padding-bottom: 9.375rem;
     clip-path: polygon(0 0 , 100% 0 , 100% 85% , 0 100%);
 }
 

@@ -1,0 +1,177 @@
+@media only screen and (max-width: 1400px){
+    .navdev1{
+        font-size: 80%;
+    }
+    .navdev2{
+        font-size: 80%;
+    }
+    .navdev3{
+        font-size: 80%;
+    }
+    .navdev4{
+        font-size: 80%;
+    }
+    .navdev5{
+        font-size: 80%;
+    }
+    .daylight{
+        font-size: 90%;
+    }
+    .anav{
+        padding: 4px 10px;
+    }
+    .section1{
+        clip-path: polygon(0 0 , 100% 0 , 100% 85% , 0 95%);
+    }
+    .primary{
+        margin-left: 0.9375rem;
+        margin-right: 4rem;
+    }
+    .secondary1{
+        margin-right: 4rem;
+        float:left;
+    }
+    .secondary2{
+        margin-right: 4rem;
+        float:left;
+    }
+    .secondary3{
+        margin-right: 4.5rem;
+        float:left;
+    }
+    .secondary4{
+        margin-right: 2rem;
+        float:left;
+    }
+    .colfooter{
+        width: 9rem;
+        float: left;
+        margin-right: 3.10rem;
+        margin-bottom: 1.5rem;
+        font-size: 15px;
+    }
+    .backtotop{
+        float: left;
+        font-size: 17px;
+        border: 1px solid rgb(195, 212, 34);
+        border-radius: 2px;
+        background-color: rgb(161, 114, 71);
+    }
+}
+
+    @media only screen and (max-width: 1000px){
+        .navdev1{
+            font-size: 60%;
+        }
+        .navdev2{
+            font-size: 60%;
+            margin-left: 22%;
+        }
+        .navdev3{
+            font-size: 60%;
+            display: none;
+        }
+        .navdev4{
+            font-size: 60%;
+            margin-left: 37%; 
+        }
+        .navdev5{
+            font-size: 60%;
+            margin-left: 49%;
+        }
+        .daylight{
+            font-size: 90%;
+            margin-left: 70%;
+        }
+        .anav{
+            padding: 4px 10px;
+        }
+        .daylightimg{
+            display: none;
+            
+        }
+        .section1{
+            clip-path: polygon(0 0 , 100% 0 , 100% 95% , 0 100%);
+            height: 40rem;
+        }
+        .centertext{
+            text-align: left;
+        }
+        .reviewdiv{
+            margin-left: auto;
+        }
+        .namebar{
+            width: 200px;
+        }
+        .reviewbar{
+            width: 200px;
+        }
+        .cardsidereview{
+            width:300px;
+        }
+        .classheading1{
+            left: 6.375rem;
+        }
+        .carddetailsreview{
+            display:none;
+        }
+        .classheading2{
+            top: 16rem;
+           left: 2rem;
+        }
+        .searchbar{
+            width: 25rem;
+        }
+        .fontinitial1{
+            font-size: 12px;
+            text-align: left;
+        }
+        .fontinitial2{
+            font-size: 10px;
+            text-align: left;
+            display:none;
+        }
+        .righttext{
+            text-align: left;
+        }
+        .displayreview{
+            display: none;
+        }
+        .alignfooter{
+            margin-left: 0rem;
+        }
+        .primary{
+            margin-left: 0.9375rem;
+            margin-right: 2rem;
+        }
+        .secondary1{
+            margin-right: 2rem;
+            float:left;
+        }
+        .secondary2{
+            margin-right: 2rem;
+            float:left;
+        }
+        .secondary3{
+            margin-right: 2.6rem;
+            float:left;
+        }
+        .secondary4{
+            margin-right: 1.5rem;
+            float:left;
+        }
+        .colfooter{
+            width: 6rem;
+            float: left;
+            margin-right: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 10px;
+        }
+        .backtotop{
+            float: left;
+            font-size: 12px;
+            border: 1px solid rgb(195, 212, 34);
+            border-radius: 2px;
+            background-color: rgb(161, 114, 71);
+        }
+}

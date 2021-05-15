@@ -1,12 +1,24 @@
 .card{
     position: relative;
-    height: 380px;
+    height: 23.75rem;
 }
 
 .cardside{
     background-color: white;
     transition: all .8s;
-    height: 380px;
+    height: 23.75rem;
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    border-radius:5px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgb(44, 43, 43, 0.15);
+}
+.cardsidereview{
+    background-color: rgb(226, 226, 202);
+    transition: all .8s;
+    height: 23.75rem;
     position: absolute;
     top: 0;
     left:0;
@@ -21,7 +33,7 @@
 }
 .cardpicture{
     background-size: cover;
-    height: 180px;
+    height: 11.25rem;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .cardheadingdefault{
@@ -32,44 +44,56 @@
     text-align: center;
     color: rgb(241, 46, 12);
     position:absolute;
-    top: 180px;
-    left: 36px;
+    top: 11.25rem;
+    left: 2.25rem;
 
 }
 .cardheading1{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 300;
     font-family: Andale Mono, monospace;
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
     position:absolute;
-    top: 180px;
-    left: 75px;
+    top: 11.25rem;
+    left: 4.6875rem;
+
+}
+.cardheadingreview1{
+    font-size: 1.75rem;
+    font-weight: 300;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(241, 46, 12);
+    position:absolute;
+    top: 11.25rem;
+    left: 4.6875rem;
 
 }
 .cardheading2{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 300;
     font-family: Andale Mono, monospace;
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
     position:absolute;
-    top: 180px;
-    left: 85px;
+    top: 11.25rem;
+    left: 5.3125rem;
 
 }
 .cardheading3{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 300;
     font-family: Andale Mono, monospace;
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
     position:absolute;
-    top: 180px;
-    left: 60px;
+    top: 11.25rem;
+    left: 3.75rem;
 
 }
 .cardheading4{
@@ -80,11 +104,14 @@
     text-align: center;
     color: rgb(241, 46, 12);
     position:absolute;
-    top: 180px;
-    left: 95px;
+    top: 11.25rem;
+    left: 5.9375rem;
 
 }
 .carddetails{
+    padding:36px 30px 10px 30px;
+}
+.carddetailsreview{
     padding:36px 30px 10px 30px;
 }
 .listdesign{
@@ -101,7 +128,7 @@
     }
 
 .list1{
-    margin-left: 140px;
+    margin-left: 8.75rem;
     margin-right: 6px;
     padding: 4px;
     color: rgba(177, 31, 12, 0.89);
@@ -109,11 +136,11 @@
     font-size: 15px; 
     font-weight: bolder;
     border: 2px solid rgb(149, 221, 32);
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 .linktocart{
     position:absolute;
-    top: 350px;
+    top: 21.875rem;
     left: 5px;
     
 }
@@ -153,15 +180,15 @@
     padding:3px;
 }
 .classheading1{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 300;
     font-family: Andale Mono, monospace;
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
     position:absolute;
-    top: 180px;
-    left: 150px;
+    top: 11.25rem;
+    left: 9.375rem;
 
 }
 .classheading2{
@@ -173,5 +200,5 @@
     color: rgba(179, 121, 15, 0.788);
     position: absolute;
     top: 10px;
-    left: 400px;
+    left: 25rem;
 }

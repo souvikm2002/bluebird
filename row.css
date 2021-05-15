@@ -1,20 +1,20 @@
 .row{
-    max-width: 1200px;
+    max-width: 75rem;
     background-color: rgba(190, 136, 34, 0.6);
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
     border-radius: 14px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 5rem;
     
    
 }
 .row1{
-    max-width: 1200px;
+    max-width: 75rem;
     background-color: #dad8d8;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
     border-radius: 14px;
     padding-top: 40px;
     padding-left: 20px;
@@ -23,24 +23,30 @@
 }
 
 .col1of2{
-    width: 570px;
+    width: 35.625rem;
     float:left;
-    margin-right: 60px;
+    margin-right: 3.75rem;
     
 } 
 .col2of2{
-    width: 570px;
+    width: 35.625rem;
     float:left;
     
 } 
 .col1of4{
-    width: 255px;
+    width: 15.9375rem;
     float: left;
-    margin-right: 60px;
+    margin-right: 3.75rem;
    /* background-color: white;*/
 }
+.colfooter{
+    width: 15.9375rem;
+    float: left;
+    margin-right: 3.75rem;
+    font-size: 200;
+}
 .col4of4{
-    width: 255px;
+    width: 15.9375rem;
     float: left;
     /*background-color: white;*/
 }

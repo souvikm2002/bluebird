@@ -1,28 +1,49 @@
 .centertext{
     text-align: center;
 }
+.centertext1{
+    text-align: center;
+}
+.fontinitial1{
+    font-size: large;
+    font-weight: 800;
+    font-family: 'lato', sans-serif;
+    text-transform: uppercase;
+    color: rgb(5, 39, 78);
+}
+.fontinitial2{
+    text-align: center; 
+    font-family: Apple Chancery, cursive;
+    color: rgb(21, 2, 48);
+    font-size: 16px;
+}
 .righttext{
     text-align: right;
 }
 .searchdiv{
-    margin-left: 525px;
+    margin-left: 0%;   /*32.8125rem*/
 }
 .imgposi{
     position:absolute;
-    margin-left: 937px;
-    margin-top: -29px;
+    margin-left: 0rem;  /*58.5625rem*/
+    margin-top: 0rem;
+    float: left;
 }
 .searchbar{
-    padding: 5px 240px 5px 10px;
+    width: 25rem;
+    height: 1.5rem;
+    padding: 0.4rem o.625rem 0rem 0.625rem;   /*15rem*/
 }
 .reviewdiv{
     margin-left: 70px;
 }
 .namebar{
-    padding: 5px 240px 5px 5px;
+    width: 400px;
+    padding: 5px 20px 5px 5px;
 }
 .reviewbar{
-    padding: 5px 240px 70px 5px;
+    width: 400px;
+    padding: 5px 20px 70px 5px;
 }
 .searchbar:hover{
     box-shadow:0 10px 20px rgb(34, 33, 33 , 0.15);
@@ -31,7 +52,7 @@
 }
 
 .buttommargin{
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 .textdesign{
     font-size: 20px;
@@ -84,8 +105,8 @@
     padding:12px 22px;
 }
 .primary{
-    margin-left: 15px;
-    margin-right: 160px;
+    margin-left: 0.9375rem;
+    margin-right: 10rem;
 }
 
 .primarylink:hover{
@@ -95,19 +116,19 @@
     padding:30px 0px 2px 0px;
 }
 .secondary1{
-    margin-right: 160px;
+    margin-right: 10rem;
     float:left;
 }
 .secondary2{
-    margin-right: 160px;
+    margin-right: 10rem;
     float:left;
 }
 .secondary3{
-    margin-right: 173px;
+    margin-right: 10.8125rem;
     float:left;
 }
 .secondary4{
-    margin-right: 120px;
+    margin-right: 7.5rem;
     float:left;
 }
 .alignfooter{
@@ -122,4 +143,9 @@
     transform: translateY(-1px);
     background-color: rgb(11, 11, 20);
     padding:2px 2px 2px 2px;
+}
+.backtotop{
+    float: left;
+    font-size: 200;
+    margin-top: 0rem;
 }
