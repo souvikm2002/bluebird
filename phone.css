@@ -15,7 +15,7 @@
         font-size: 80%;
     }
     .daylight{
-        font-size: 90%;
+        font-size: 180%;
     }
     .anav{
         padding: 4px 10px;
@@ -80,7 +80,7 @@
             margin-left: 49%;
         }
         .daylight{
-            font-size: 90%;
+            font-size: 125%;
             margin-left: 70%;
         }
         .anav{
