@@ -20,6 +20,9 @@
     .anav{
         padding: 4px 10px;
     }
+    .anav:hover{
+        padding: 4px 10px;
+    }
     .section1{
         clip-path: polygon(0 0 , 100% 0 , 100% 85% , 0 95%);
     }
@@ -65,7 +68,7 @@
         }
         .navdev2{
             font-size: 60%;
-            margin-left: 22%;
+            margin-left: 23%;
         }
         .navdev3{
             font-size: 60%;
@@ -73,17 +76,20 @@
         }
         .navdev4{
             font-size: 60%;
-            margin-left: 37%; 
+            margin-left: 37.2%; 
         }
         .navdev5{
             font-size: 60%;
-            margin-left: 49%;
+            margin-left: 49.7%;
         }
         .daylight{
             font-size: 125%;
             margin-left: 70%;
         }
         .anav{
+            padding: 4px 10px;
+        }
+        .anav:hover{
             padding: 4px 10px;
         }
         .daylightimg{
