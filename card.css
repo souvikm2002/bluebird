@@ -36,6 +36,11 @@
     height: 11.25rem;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
+.cardpicturereview{
+    background-size: cover;
+    height: 11.25rem;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
 .cardheadingdefault{
     font-size: 28px;
     font-weight: 300;
@@ -43,9 +48,9 @@
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
-    position:absolute;
+    /*position:absolute;
     top: 11.25rem;
-    left: 2.25rem;
+    left: 2.25rem;*/
 
 }
 .cardheading1{
@@ -55,9 +60,9 @@
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
-    position:absolute;
+    /*position:absolute;
     top: 11.25rem;
-    left: 4.6875rem;
+    left: 4.6875rem;*/
 
 }
 .cardheadingreview1{
@@ -67,9 +72,9 @@
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
-    position:absolute;
+    /*position:absolute;
     top: 11.25rem;
-    left: 4.6875rem;
+    left: 4.6875rem;*/
 
 }
 .cardheading2{
@@ -79,9 +84,9 @@
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
-    position:absolute;
+    /*position:absolute;
     top: 11.25rem;
-    left: 5.3125rem;
+    left: 5.3125rem;*/
 
 }
 .cardheading3{
@@ -91,9 +96,9 @@
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
-    position:absolute;
+    /*position:absolute;
     top: 11.25rem;
-    left: 3.75rem;
+    left: 3.75rem;*/
 
 }
 .cardheading4{
@@ -103,13 +108,13 @@
     text-transform: uppercase;
     text-align: center;
     color: rgb(241, 46, 12);
-    position:absolute;
+    /*position:absolute;
     top: 11.25rem;
-    left: 5.9375rem;
+    left: 5.9375rem;*/
 
 }
 .carddetails{
-    padding:36px 30px 10px 30px;
+    padding:5px 30px 10px 30px;
 }
 .carddetailsreview{
     padding:36px 30px 10px 30px;
@@ -128,6 +133,7 @@
     }
 
 .list1{
+    position: absolute;
     margin-left: 8.75rem;
     margin-right: 6px;
     padding: 4px;
@@ -140,7 +146,8 @@
 }
 .linktocart{
     position:absolute;
-    top: 21.875rem;
+    /*top: 21.875rem;*/
+    bottom: 0.7rem;
     left: 5px;
     
 }
@@ -152,6 +159,7 @@
     font-size: medium;
     display: inline-block;
     border-radius: 3px;
+   
 }
 
 .cartlink:visited{

@@ -17,6 +17,13 @@
     color: rgb(21, 2, 48);
     font-size: 16px;
 }
+.fontphone2{
+    display:none;
+    text-align: center; 
+    font-family: Apple Chancery, cursive;
+    color: rgb(21, 2, 48);
+    font-size: 16px;
+}
 .righttext{
     text-align: right;
 }

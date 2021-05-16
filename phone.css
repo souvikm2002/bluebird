@@ -60,6 +60,10 @@
         border-radius: 2px;
         background-color: rgb(161, 114, 71);
     }
+    .fontphone2{
+        display:none;
+    }
+    
 }
 
     @media only screen and (max-width: 1030px){
@@ -100,6 +104,9 @@
             clip-path: polygon(0 0 , 100% 0 , 100% 95% , 0 100%);
             height: 40rem;
         }
+        .headertop{
+            margin-top: 12rem;
+        }
         .centertext{
             text-align: left;
         }
@@ -107,13 +114,14 @@
             margin-left: auto;
         }
         .namebar{
-            width: 200px;
+            width: 300px;
         }
         .reviewbar{
-            width: 200px;
+            width: 300px;
         }
         .cardsidereview{
             width:300px;
+            padding-bottom: 1rem;
         }
         .classheading1{
             left: 6.375rem;
@@ -179,5 +187,51 @@
             border: 1px solid rgb(195, 212, 34);
             border-radius: 2px;
             background-color: rgb(161, 114, 71);
+        }
+        .fontphone2{
+            display:block;
+            text-align: left;
+            font-size: 130% ;
+        }
+        .cardside{
+            background-color: white;
+            transition: all .8s;
+            height: 28rem;  /*23.75rem*/
+            position: absolute;
+            top: 0;
+            left:0;
+            width:150%;
+            border-radius:5px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgb(44, 43, 43, 0.15);
+        }
+        .cardpicture img{
+            width: 150%;
+        }
+        .list1{
+            margin-left: 16.4rem;
+           margin-top: 3.8rem;
+            
+        }
+        .col1of4{
+            width: 15.9375rem;
+            float: left;
+            margin-right: 15%;
+            margin-left: 3%;
+            
+           /* background-color: white;*/
+        }
+        .col1of4part{
+            width: 15.9375rem;
+            float: left;
+            margin-right: 15%;
+            margin-left: 3%;
+        }
+        .col4of4{
+            width: 15.9375rem;
+            float: left;
+            /*background-color: white;*/
+            margin-right: 15%;
+            margin-left: 3%;
         }
 }
