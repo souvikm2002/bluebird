@@ -32,6 +32,16 @@
     width: 35.625rem;
     float:left;
 } 
+.col1of2rev{
+    width: 35.625rem;
+    float:left;
+    margin-right: 3.75rem;
+    
+} 
+.col2of2rev{
+    width: 35.625rem;
+    float:left;
+} 
 .col1of4{
     width: 15.9375rem;
     float: left;

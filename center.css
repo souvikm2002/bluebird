@@ -156,3 +156,18 @@
     font-size: 200;
     margin-top: 0rem;
 }
+.new{
+    display: none;
+}
+.addareview{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(238, 11, 11);
+    font-family: American Typewriter, serif;
+}
+.swaprev2{
+    display: none;
+}
+.swaptext1{
+    display: none;
+}

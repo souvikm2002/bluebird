@@ -63,6 +63,9 @@
     .fontphone2{
         display:none;
     }
+    .headertop{
+        margin-left: auto;
+    }
     
 }
 
@@ -105,7 +108,7 @@
             height: 39rem;
         }
         .headertop{
-            margin-top: 8rem;
+            margin-top: 7.125rem;
         }
         .centertext{
             text-align: left;
@@ -234,5 +237,37 @@
             margin-right: 15%;
             margin-left: 3%;
         }
+        .new{
+            display: block;
+        }
+        .old{
+            display: none;
+        }
+        .col1of2rev{
+            width: 25rem;
+            float:left;
+            margin-right: 3rem;
+        }
+        .col2of2rev{
+            width: 20rem;
+            float:left;
+        }
+        .linebreak{
+            display: none;
+        }
         
+}
+@media only screen and (max-width: 1000px){
+    .swaprev2{
+        display: block;
+    }
+    .swaptext1{
+        display: block;
+    }
+    .rev2{
+        display: none;
+    }
+    .text1{
+        display: none;
+    }
 }
