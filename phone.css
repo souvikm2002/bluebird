@@ -66,6 +66,9 @@
     .headertop{
         margin-left: auto;
     }
+    .brtag{
+        display: block;
+    }
     
 }
 
@@ -256,6 +259,12 @@
         }
         .linebreak{
             display: none;
+        }
+        .brtag{
+            display: block;
+        }
+        .row1{
+            margin-bottom: 1%;
         }
         
 }

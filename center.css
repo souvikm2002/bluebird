@@ -30,6 +30,7 @@
 }
 .searchdiv{
     margin-left: 0%;   /*32.8125rem*/
+    margin-bottom: 4%;
 }
 .imgposi{
     position:absolute;
@@ -170,5 +171,8 @@
     display: none;
 }
 .swaptext1{
+    display: none;
+}
+.brtag{
     display: none;
 }
