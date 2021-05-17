@@ -246,11 +246,13 @@
         .col1of2rev{
             width: 25rem;
             float:left;
-            margin-right: 3rem;
+            margin-right: 1rem;  
+            margin-left: 5.5%;
         }
         .col2of2rev{
             width: 20rem;
             float:left;
+            margin-left: 5.5%;
         }
         .linebreak{
             display: none;
